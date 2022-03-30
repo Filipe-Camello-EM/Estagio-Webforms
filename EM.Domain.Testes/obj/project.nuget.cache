@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LMVkPD4bN2UhbUSWlHWV8t0lLkrTd5PJXbUMwRCcObsJKGaFX7sOTnwYVNG6RnptI1r652Dgy173I+MfRvTjRg==",
+  "dgSpecHash": "UpC7i1vU6F1/rC2Z7795MMcDtuS3Ncds0W0bsnce/NeeI9achT1CcMJF+EshyzehxYbcRMvn5BbZW64HG2teFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Domain.Testes\\EM.Domain.Testes.csproj",
+  "projectFilePath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Domain.Testes\\EM.Domain.Testes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Escolar Manager\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Escolar Manager\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

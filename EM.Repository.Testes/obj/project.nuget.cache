@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xhtA1jw4CDyG/6FsP5t3NA2eoukUW/zJRvK6rDkgCQ11yVHaOPDGGVQNmRaBqSZZK5yrlT3PLGlMla2nYAUyEA==",
+  "dgSpecHash": "JHyYmIgMA37gyEhMn3H+jMPqV8XDn6Ojlw+dj81HOz+oqV9gWrlhyyUOClOZQ2cV0xQX1yczi7sXPJgYpGsUxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Repository.Testes\\EM.Repository.Testes.csproj",
+  "projectFilePath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Repository.Testes\\EM.Repository.Testes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Escolar Manager\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Escolar Manager\\.nuget\\packages\\firebirdsql.data.firebirdclient\\8.5.4\\firebirdsql.data.firebirdclient.8.5.4.nupkg.sha512",

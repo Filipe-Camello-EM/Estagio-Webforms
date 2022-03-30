@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Domain\\EM.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Domain\\EM.Domain.csproj",
       "projectName": "EM.Domain",
-      "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Domain\\EM.Domain.csproj",
+      "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Domain\\EM.Domain.csproj",
       "packagesPath": "C:\\Users\\Escolar Manager\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Escolar Manager\\AppData\\Roaming\\NuGet\\NuGet.Config",

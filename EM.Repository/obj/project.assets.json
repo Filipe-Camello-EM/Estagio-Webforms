@@ -4595,11 +4595,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Repository\\EM.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Repository\\EM.Repository.csproj",
       "projectName": "EM.Repository",
-      "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Repository\\EM.Repository.csproj",
+      "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Repository\\EM.Repository.csproj",
       "packagesPath": "C:\\Users\\Escolar Manager\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Escolar Manager\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4617,8 +4617,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Domain\\EM.Domain.csproj": {
-              "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Domain\\EM.Domain.csproj"
+            "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Domain\\EM.Domain.csproj": {
+              "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Domain\\EM.Domain.csproj"
             }
           }
         }

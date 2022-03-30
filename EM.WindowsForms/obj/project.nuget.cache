@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HXKpKGnmZOdhNBjUYiQ6NoK0NQo5tAc6Pebpu/tdeyua0Gj3cK7Ec47Z0Ds16+vJ676gLwaL9Hrvhub+WlUrDg==",
+  "dgSpecHash": "M2hGelbsDcCSifuDXsnwPIgEdwh9qbCX4fzgY31ltSdABxJdOcO5qCKsykdSDdU4gatwf9DRQWmNnUP0Tdf9LA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.WindowsForms\\EM.WindowsForms.csproj",
+  "projectFilePath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.WindowsForms\\EM.WindowsForms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Escolar Manager\\.nuget\\packages\\firebirdsql.data.firebirdclient\\8.5.4\\firebirdsql.data.firebirdclient.8.5.4.nupkg.sha512",
     "C:\\Users\\Escolar Manager\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",

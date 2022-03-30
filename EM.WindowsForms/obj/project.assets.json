@@ -4614,11 +4614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.WindowsForms\\EM.WindowsForms.csproj",
+      "projectUniqueName": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.WindowsForms\\EM.WindowsForms.csproj",
       "projectName": "EM.WindowsForms",
-      "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.WindowsForms\\EM.WindowsForms.csproj",
+      "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.WindowsForms\\EM.WindowsForms.csproj",
       "packagesPath": "C:\\Users\\Escolar Manager\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.WindowsForms\\obj\\",
+      "outputPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.WindowsForms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Escolar Manager\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4636,11 +4636,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Domain\\EM.Domain.csproj": {
-              "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Domain\\EM.Domain.csproj"
+            "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Domain\\EM.Domain.csproj": {
+              "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Domain\\EM.Domain.csproj"
             },
-            "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Repository\\EM.Repository.csproj": {
-              "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\EM.Repository\\EM.Repository.csproj"
+            "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Repository\\EM.Repository.csproj": {
+              "projectPath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\EM.Repository\\EM.Repository.csproj"
             }
           }
         }

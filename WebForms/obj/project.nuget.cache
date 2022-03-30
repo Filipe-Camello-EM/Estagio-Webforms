@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ufrE12Z2Ce6oUa70tyW6PocNtqA/08burcf0dDVY9y4boTeluqoIDfKFmHAf2mywLIyqtjJD7VEVbSE+YWvLUw==",
+  "dgSpecHash": "49DKXhz2w2y96A3vSD7+tRrkfz2PKc8OJzJrOWN8QcHhgROkOUHwFgvPYRroPU/AHoZ8nnvbnHjNNBP89cAWrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Escolar Manager\\Desktop\\Projeto - Webforms\\WebForms\\WebForms.csproj",
+  "projectFilePath": "C:\\Users\\Escolar Manager\\Desktop\\Estagio-Webforms\\WebForms\\WebForms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Escolar Manager\\.nuget\\packages\\firebirdsql.data.firebirdclient\\8.5.4\\firebirdsql.data.firebirdclient.8.5.4.nupkg.sha512",
     "C:\\Users\\Escolar Manager\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
