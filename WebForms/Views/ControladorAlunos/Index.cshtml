@@ -62,23 +62,33 @@
         }
     </script>
 
-<table class="table">
+<table class="table table-striped table-bordered table-hover">
     <thead>
         <tr>
             <th>
+                <center>
                 @Html.DisplayNameFor(model => model.Matricula)
+                </center>
             </th>
             <th>
+                <center>
                 @Html.DisplayNameFor(model => model.Nome)
+                </center>
             </th>
             <th>
+                <center>
                 @Html.DisplayNameFor(model => model.CPF)
+                </center>
             </th>
             <th>
+                <center>
                 @Html.DisplayNameFor(model => model.Nascimento)
+                </center>
             </th>
             <th>
+                <center>
                 @Html.DisplayNameFor(model => model.Sexo)
+                </center>
             </th>
             <th></th>
         </tr>
@@ -87,23 +97,35 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                <center>
                 @Html.DisplayFor(modelItem => item.Matricula)
+                </center>
             </td>
             <td>
+                <center>
                 @Html.DisplayFor(modelItem => item.Nome)
+                </center>
             </td>
             <td>
+                <center>
                 @Html.DisplayFor(modelItem => item.CPF)
+                </center>
             </td>
             <td>
+                <center>
                 @Html.DisplayFor(modelItem => item.Nascimento)
+                </center>
             </td>
             <td>
+                <center>
                 @Html.DisplayFor(modelItem => item.Sexo)
+                </center>
             </td>
-            <td>
+            <td width = "15%">
+                <center>
                 @Html.ActionLink("Editar", "Edit", new {  item.Matricula }, new { @class="btn btn-success"} ) 
-                @Html.ActionLink("Excluir", "Delete", new { item.Matricula }, new { @class="btn btn-danger" } )                
+                @Html.ActionLink("Excluir", "Delete", new { item.Matricula }, new { @class="btn btn-danger" } )           
+                </center>
             </td>
         </tr>
 }

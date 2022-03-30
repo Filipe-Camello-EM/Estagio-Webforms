@@ -10,7 +10,7 @@ namespace Domain
     public class Aluno : IEntidade
     {
         [Required(ErrorMessage = "Erro: A Matrícula não pode ser nula")]
-        [Range(1, 999999999, ErrorMessage = "Erro: A matrícula deve ser um número de até 9 dígitos, e não pode ser zero")]
+        [Range(1, 999999999, ErrorMessage = "Erro: A matrícula deve ser um número de até 9 dígitos, e não pode ser zero ou negativo")]
         public int? Matricula { get; set; } = 0;
 
 
@@ -22,7 +22,7 @@ namespace Domain
         [RegularExpression(@"^[0-9]+$", ErrorMessage = "O CPF deve conter apenas dígitos numéricos")]
         public string? CPF { get; set; } = string.Empty;
 
-
+        [Required(ErrorMessage = "Erro: A data de nascimento é obrigatória")]
         [DataType(DataType.Date, ErrorMessage = "Formato de data inválido")]
         [Range(typeof(DateTime), "1/1/1900", "31/12/2020", ErrorMessage = "Não é possível cadastrar alunos nascidos antes de 1900 e a partir de 2021")]
         public DateTime? Nascimento { get; set; }
