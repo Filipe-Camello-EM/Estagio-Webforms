@@ -1,0 +1,113 @@
+﻿@model IEnumerable<Domain.Aluno>
+
+@{
+    ViewData["Title"] = "Cadastro de alunos";
+}
+<div class="card bg-light mb-3">
+    <div class="card-header">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+<h1>Alunos cadastrados:</h1>
+</div>
+    <div class="card-body">
+<p>
+    <a asp-action="Create" class="btn btn-primary">Cadastrar novo aluno</a>
+</p>
+
+<p></p>
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+<input type="radio" onclick="yesnoCheck();" class="btn-check" name="options" id="nomeCheck" autocomplete="off" >
+<label class="btn btn-outline-secondary" for="nomeCheck">Pesquisar por nome</label>
+
+<input type="radio" onclick="yesnoCheck();" class="btn-check" name="options" id="matriculaCheck" autocomplete="off">
+<label class="btn btn-outline-secondary" for="matriculaCheck">Pesquisar por matrícula</label>
+</div>
+<p></p>
+
+<div id = "pesquisaNome">
+    <form asp-controller="ControladorAlunos" asp-action="Index" method = "get">
+    <p>
+        Nome: <input type="text" name="SearchString" id = "pesquisaNome" />
+        <input type="submit" value="Pesquisar" />
+    </p>
+</form>
+</div>
+
+<div id = "pesquisaMatricula">
+<form asp-controller="ControladorAlunos" asp-action="Index" method = "get">
+    <p>
+        Matrícula: <input type="number" name="matricula" id = "pesquisaMatricula"/>
+        <input type="submit" value="Pesquisar" />
+    </p>
+</form>
+</div>
+
+<script type="text/javascript">
+
+        document.getElementById("pesquisaMatricula").style.display = "none"
+        document.getElementById("pesquisaNome").style.display = "none"
+
+        document.getElementById("nomeCheck").onclick = function () {
+  
+            document.getElementById("pesquisaNome").style.display = "block"
+            document.getElementById("pesquisaMatricula").style.display = "none";
+  
+        }
+  
+        document.getElementById("matriculaCheck").onclick = function () {
+  
+            document.getElementById("pesquisaMatricula").style.display = "block"
+            document.getElementById("pesquisaNome").style.display = "none";
+  
+        }
+    </script>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Matricula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nascimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new {  item.Matricula }, new { @class="btn btn-success"} ) 
+                @Html.ActionLink("Excluir", "Delete", new { item.Matricula }, new { @class="btn btn-danger" } )                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>

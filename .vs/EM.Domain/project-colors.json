@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3dfac460-6bf2-4823-83d0-19e8f050b3e2": {
+      "ProjectGuid": "3dfac460-6bf2-4823-83d0-19e8f050b3e2",
+      "DisplayName": "EM.Domain",
+      "ColorIndex": 0
+    },
+    "56d82650-64b2-4024-bedb-8ba624766fa7": {
+      "ProjectGuid": "56d82650-64b2-4024-bedb-8ba624766fa7",
+      "DisplayName": "EM.Repository",
+      "ColorIndex": 1
+    },
+    "98249859-6c6a-43e9-9d3a-52d965fa0947": {
+      "ProjectGuid": "98249859-6c6a-43e9-9d3a-52d965fa0947",
+      "DisplayName": "EM.WindowsForms",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

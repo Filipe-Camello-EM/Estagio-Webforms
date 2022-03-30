@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Domain.Aluno>
+@{
+    ViewBag.Title = "Alunos Cadastrados";
+}
+<h2>Index</h2>
+    @Html.ActionLink("Cadastro de Alunos","Criar","Cadastro", new { @class = "btn btn-success" })
+
+<p>
+    @Html.ActionLink("Adicionar Aluno", "Create")
+</p>
+<table class="table" id="tblPessoas">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th>
+            <th></th>
+        </tr>
+        }
+    </tbody>
+</table>
